@@ -153,8 +153,7 @@ function buildGameCanvas(){
 	centerReg(buttonWhatsapp);
 	createHitarea(buttonWhatsapp);
 	
-	buttonFullscreen = new createjs.Bitmap(loader.getResult('buttonFullscreen'));
-	centerReg(buttonFullscreen);
+	
 	buttonSoundOn = new createjs.Bitmap(loader.getResult('buttonSoundOn'));
 	centerReg(buttonSoundOn);
 	buttonSoundOff = new createjs.Bitmap(loader.getResult('buttonSoundOff'));
